@@ -32,7 +32,20 @@ div.text {
 
 </iframe>
 </div>
-<p align="center"><button class="button button1">Fullscreen</button>
+<p align="center"><button class="button button1" onclick="openFullscreen();">Fullscreen</button>
+
+<script>
+var elem = document.getElementById("iframe");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
 </p>
 
 <div class="text">
