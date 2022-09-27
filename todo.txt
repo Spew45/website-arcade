@@ -1,0 +1,4 @@
+- Add Tons of SNES and NES Games
+- Add Changelog
+- Add Somesort of text shadow
+- Make it easier to copy and paste the whole game list for each game
