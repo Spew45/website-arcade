@@ -1,14 +1,12 @@
 <html> 
-  <head> 
-    <script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("baseplate.html"); 
-    });
-    </script> 
-  </head> 
+  <body>
+  <h1>Put your HTML content before insertion of b.js.</h1>
+      ...
 
-  <body> 
-     <div id="includedContent"></div>
-  </body> 
+  <script src="b.js"></script>
+
+      ...
+
+  <p>And whatever content you want afterwards.</p>
+  </body>
 </html>
