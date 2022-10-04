@@ -2,3 +2,5 @@
 - Add Changelog
 - Make it easier to copy and paste the whole game list for each game
 !! - Add text above the game showing what it is
+
+------!!! ADD CASTELVANIA (multiple versions)
